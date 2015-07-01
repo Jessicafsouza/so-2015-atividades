@@ -115,7 +115,6 @@ who
 whoami
   Descrição do comando
 
-
-    write
-        Descrição do comando
+write
+  Descrição do comando
 
