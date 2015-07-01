@@ -41,7 +41,7 @@ HISTTIMEFORMAT="%d/%m/%y
 
 
 hostname
-  Descrição do comando
+  Comando que exibe o nome da máquina.
 
 
 ifconfig
