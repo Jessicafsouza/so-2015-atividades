@@ -9,7 +9,7 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Serve para concatenar arquivos (seu nome vem de concatenate);
+  Serve para concatenar arquivos (seu nome vem de concatenate), Ex.: cat mytext.txt mytext2.txt (Irá imprimir o conteúdo       desses dois arquivos de texto como se fossem um único arquivo.);
 
 
 cd
@@ -21,7 +21,7 @@ cowsay
 
 
 echo
-  Escreve os seus argumentos para a saída padrão;
+  Escreve os seus argumentos para a saída padrão (exibe uma linha de texto), Ex.: x=10 echo O valor de x é $x.;
 
 
 env
