@@ -81,7 +81,7 @@ set
 
 
 tree
-  Descrição do comando
+  árvore é uma estrutura de dados hierárquica que organiza elementos de dados, chamados de nós, ligando-os com links, Essa     estrutura é usada para ajudar a exibir grandes quantidades de informações em um formato fácil de ler;
 
 
 tty
