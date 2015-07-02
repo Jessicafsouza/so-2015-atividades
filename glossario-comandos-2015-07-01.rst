@@ -9,19 +9,19 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
+  Serve para concatenar arquivos (seu nome vem de concatenate);
 
 
 cd
-  Descrição do comando
+  Alterar o diretório atual. Trocar de diretório,  Ex.: cd /tmp;
 
 
 cowsay
-  Descrição do comando
+  Mostra uma imagem com uma mensagem, Ex.: cowsay -f  formatodavaca "Escreva aq a mensagem";
 
 
 echo
-  Descrição do comando
+  Escreve os seus argumentos para a saída padrão;
 
 
 env
@@ -29,15 +29,15 @@ env
 
 
 exit
-  Descrição do comando
+  Sair do shell;
 
 
 help
-  Descrição do comando
+  Exibe informações sobre comandos internos;
 
 
 HISTTIMEFORMAT="%d/%m/%y
-  Descrição do comando
+  Lista os comandos feitos anteriormente com data e horário;
 
 
 hostname
