@@ -25,7 +25,7 @@ echo
 
 
 env
-  Descrição do comando
+  Ele pode ser usado para imprimir uma lista das variáveis de ambiente atuais, ou para executar outro programa em um ambiente   personalizado, sem modificar o atual;
 
 
 exit
@@ -101,20 +101,20 @@ wall
 
 
 which
-  Descrição do comando
+  Localiza o arquivo executável associado com um determinado comando, Ex.: which sh;
 
 
 while
-  Descrição do comando
+  Um laço, executa comandos enquanto o teste seja bem-sucedido; 
 
 
 who
-  Descrição do comando
+  Mostra quem e dá informações sobre os usuários que estão conectados no momento;
 
 
 whoami
-  Descrição do comando
+  Nome do usuário associado com o atual efetivo ID do usuário; 
 
 write
-  Descrição do comando
+  Envia mensagens para outros usuários, |Ex.: cowsay -f  formatodavaca "Escreva aq a mensagem" | write nomedealguem
 
