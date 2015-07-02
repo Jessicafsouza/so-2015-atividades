@@ -68,7 +68,7 @@ nome="fulano
   Declarando uma variável;
 
 
-passswd
+passwd
   Alteração de senha;
 
 
