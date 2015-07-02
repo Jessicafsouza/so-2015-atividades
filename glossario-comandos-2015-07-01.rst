@@ -41,39 +41,39 @@ HISTTIMEFORMAT="%d/%m/%y
 
 
 hostname
-  Comando que exibe o nome da máquina;
+  Imprime o nome do host atual sistema;
 
 
 ifconfig
-  Descrição do comando
+  Configura uma interface de rede;
 
 
 last
-  Descrição do comando
+  mostra uma lista com a última vez que o usuário logou;
 
 
 lastb
-  Descrição do comando
+  sessões que não deram certo de todos (mostra quem tentou logar na meu sistema);
 
 
 ls
-  Descrição do comando
+  lista os arquivos que estão dentro do diretório, ex.: ls /bin/ = os arquivos dentro do diretorio bin;
 
 
 mkdir
-  Descrição do comando
+  Serve para criar um diretório;
 
 
 nome="fulano
-  Descrição do comando
+  Declarando uma variável;
 
 
 passswd
-  Descrição do comando
+  Alteração de senha;
 
 
 pwd
-  Descrição do comando
+  Imprime o nome do diretório atual;
 
 
 set
@@ -85,19 +85,19 @@ tree
 
 
 tty
-  Descrição do comando
+  Imprime o nome do terminal ligado ao seu padrão entrada. Ela imprime `no a tty 'se a entrada padrão não é um terminal;
 
 
 vim
-  Descrição do comando
+  É como um editor de texto;
 
 
 wait
-  Descrição do comando
+  Aguarda até a conclusão do trabalho e retorna status de saída. Faz com que um comando espere até que outro termine;
 
 
 wall
-  Descrição do comando
+  Escreve uma mensagem a outros usuários, Ex.: sudo wall message.txt (Usando o comando sudo para executar wall como super usuário, envia o conteúdo do message.txt a todos os usuários);
 
 
 which
