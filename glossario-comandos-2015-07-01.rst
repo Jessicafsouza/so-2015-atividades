@@ -9,7 +9,7 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Serve para concatenar arquivos (seu nome vem de concatenate), Ex.: cat mytext.txt mytext2.txt (Irá imprimir o conteúdo       desses dois arquivos de texto como se fossem um único arquivo.);
+  Concatena arquivos exibindo o resultado na tela, sendo também utilizado para exibir o conteúdo de arquivos, Ex.: cat mytext.txt mytext2.txt (Irá imprimir o conteúdo desses dois arquivos de texto como se fossem um único arquivo.);
 
 
 cd
@@ -21,7 +21,7 @@ cowsay
 
 
 echo
-  Escreve os seus argumentos para a saída padrão (exibe uma linha de texto), Ex.: x=10 echo O valor de x é $x.;
+  Permite exibir textos na tela, Ex.: x=10 echo O valor de x é $x.;
 
 
 env
@@ -49,7 +49,7 @@ ifconfig
 
 
 last
-  mostra uma lista com a última vez que o usuário logou;
+  Mostra todas informações referente as entradas (login) e saídas (logout) de usuários do sistema;
 
 
 lastb
@@ -73,7 +73,7 @@ passwd
 
 
 pwd
-  Imprime o nome do diretório atual;
+  Imprime o nome do diretório atual (print working directory);
 
 
 set
@@ -101,7 +101,7 @@ wall
 
 
 which
-  Localiza o arquivo executável associado com um determinado comando, Ex.: which sh;
+  Exibe o caminho completo na hierarquia de diretórios para os comandos do sistema, Ex.: which sh;
 
 
 while
@@ -109,7 +109,7 @@ while
 
 
 who
-  Mostra quem e dá informações sobre os usuários que estão conectados no momento;
+  Mostra quem e dá informações sobre os usuários que estão conectados no momento no sistema;
 
 
 whoami
@@ -117,4 +117,11 @@ whoami
 
 write
   Envia mensagens para outros usuários, |Ex.: cowsay -f  formatodavaca "Escreva aq a mensagem" | write nomedealguem
+
+cp
+Copia arquivos e diretórios;
+
+mv
+Este comando move arquivos e diretórios,  usado também para renomear um determinado arquivo, Ex.: mv arquivo1 arquivo2, mv foo ~/Desktop
+
 
