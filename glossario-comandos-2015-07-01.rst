@@ -77,7 +77,7 @@ pwd
 
 
 set
-  Descrição do comando
+  Define e determina os valores de ambiente do sistema;
 
 
 tree
