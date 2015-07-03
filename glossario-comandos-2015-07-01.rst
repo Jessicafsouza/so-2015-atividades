@@ -29,11 +29,11 @@ env
 
 
 exit
-  Sair do shell;
+  Sair do shell, termina uma sessão;
 
 
 help
-  Exibe informações sobre comandos internos;
+  Exibe informações sobre comandos internos, Ex.: help help;
 
 
 HISTTIMEFORMAT="%d/%m/%y
@@ -41,7 +41,7 @@ HISTTIMEFORMAT="%d/%m/%y
 
 
 hostname
-  Imprime o nome do host atual sistema;
+  Imprime o nome do host (máquina) atual sistema;
 
 
 ifconfig
@@ -53,7 +53,7 @@ last
 
 
 lastb
-  sessões que não deram certo de todos (mostra quem tentou logar na meu sistema);
+  mostra quem tentou logar na meu sistema de forma mais detalhada, Ex.: lastb jessica;
 
 
 ls
@@ -61,7 +61,7 @@ ls
 
 
 mkdir
-  Serve para criar um diretório, Ex.: mkdir pasta;
+  Serve para criar um diretório, Ex.: mkdir $pasta;
 
 
 nome="fulano
@@ -77,7 +77,7 @@ pwd
 
 
 set
-  Define e determina os valores de ambiente do sistema;
+  Define e determina os valores de ambiente do sistema, Ex.: bash;
 
 
 tree
