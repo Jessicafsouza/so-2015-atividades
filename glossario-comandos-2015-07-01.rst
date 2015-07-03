@@ -13,7 +13,7 @@ cat
 
 
 cd
-  Alterar o diretório atual. Trocar de diretório,  Ex.: cd /tmp;
+  Alterar o diretório atual. Trocar de diretório,  Ex.: cd /tmp ,  cd .. , cd -;
 
 
 cowsay
@@ -57,11 +57,11 @@ lastb
 
 
 ls
-  lista os arquivos que estão dentro do diretório, ex.: ls /bin/ = os arquivos dentro do diretorio bin;
+  lista os arquivos que estão dentro do diretório, ex.: ls /bin/ = os arquivos dentro do diretorio bin (ls -l : Lista os   arquivos em formato detalhado, ls - a: lista os arquivos ocultos, ls - R: lista os subdiretórios encontrados);
 
 
 mkdir
-  Serve para criar um diretório;
+  Serve para criar um diretório, Ex.: mkdir pasta;
 
 
 nome="fulano
@@ -101,7 +101,7 @@ wall
 
 
 which
-  Exibe o caminho completo na hierarquia de diretórios para os comandos do sistema, Ex.: which sh;
+  Exibe o caminho completo na hierarquia de diretórios para os comandos do sistema, Ex.: which sh , which firefox;
 
 
 while
@@ -115,13 +115,27 @@ who
 whoami
   Nome do usuário associado com o atual efetivo ID do usuário; 
 
+
 write
-  Envia mensagens para outros usuários, |Ex.: cowsay -f  formatodavaca "Escreva aq a mensagem" | write nomedealguem
+  Envia mensagens para outros usuários, |Ex.: cowsay -f  formatodavaca "Escreva aq a mensagem" | write nomedealguem ;
+
 
 cp
-Copia arquivos e diretórios;
+Copia arquivos e diretórios, cp [opções] <arquivo_origem> <arquivo_destino>;
+
 
 mv
-Este comando move arquivos e diretórios,  usado também para renomear um determinado arquivo, Ex.: mv arquivo1 arquivo2, mv foo ~/Desktop
+Este comando move arquivos e diretórios,  usado também para renomear um determinado arquivo, Ex.: mv arquivo1 arquivo2, mv foo ~/Desktop, $mv <arquivo_origem> <arquivo_destino>;
 
+
+rmdir
+remove um diretório vazio;
+
+
+rm 
+Remove arquivos e diretórios, Ex.: rm [opções] <arquivo>, Para apagar um diretório com todo seu conteúdo: rm -r /tmp/lixo;
+
+
+find
+Procura por arquivos no diretório especificado, Ex.: procurar o arquivo nota.txt dentro do diretório /home/eitch: find /home/eitch -name nota.txt -print
 
